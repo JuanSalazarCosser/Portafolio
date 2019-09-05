@@ -1,0 +1,19 @@
+img{
+    max-width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+html,
+body,
+h2{
+    margin: 0;
+    padding: 0;
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+a{
+    text-decoration: none;
+}

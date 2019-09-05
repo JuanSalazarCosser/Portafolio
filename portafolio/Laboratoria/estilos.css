@@ -1,0 +1,218 @@
+.header{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.boton{
+    display: inline-block;
+    background-color: #FFE521;
+    width: 150px;
+    height: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 10px;
+}
+section{
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+.banner__background{
+    background-image: url(img/fondos/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 446px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    position: relative;
+    
+}
+.banner__background::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.301);
+    position: absolute;
+    
+}
+.banner__contenido{
+    padding-bottom: 40px;
+    position: relative;
+    
+}
+.banner__titulo{
+    font-size: 45px;
+    font-weight: bold;
+}
+.banner__texto{
+    font-size: 19px;
+}
+.impacto{
+    text-align: center;
+}
+.impacto__frase{
+    margin-top: 40px;
+    font-size: 1.6em;
+}
+.impacto__fundadora{
+    color: #999999;
+    font-size: 1.5em;
+}
+.impacto__titulo{
+    font-size: 2.5em;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.impacto__texto{
+    font-size: 1.8em;
+}
+.impacto__cuadros{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.impacto__caja{
+    background-color: #FF009E;
+    margin-top: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.impacto__cifras{
+    margin:0;
+    font-size: 3em;
+    font-weight: bold;
+}
+.impacto__sedes{
+    font-style: italic;
+    font-size: 1.2em;
+}
+.testimonio__background{
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: flex-end;  
+    padding-bottom: 4em;
+}
+.testimonio__frase{
+    font-weight: bold;
+    font-size: 1.8em;
+    margin: 0;
+}
+@media only screen and (max-width: 768px){
+    .testimonio__frase{
+        font-size: 1.2em;
+    }
+}
+.testimonio__nombre{
+    color: #FFE521;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin:0;
+}
+.testimonio__background--presidente{
+    background-image: url(img/fondos/banner2.jpg);
+    height: 426px;
+    text-align: center;
+}
+.testimonio__background--egresada{
+    background-image: url(img/fondos/banner3.JPG);
+    height: 409px;
+    text-align: left;
+}
+.testimonio__background--CEO{
+    background-image: url(img/fondos/banner4.jpg);
+    height: 414px;
+    text-align: right;  
+}
+.testimonio__background--gerenta{
+    background-image: url(img/fondos/banner5.jpg);
+    height: 428px;
+    text-align: right;
+}
+.testimonio__nombre--verde{
+    color: #56F89A;
+}
+.testimonio__nombre--fucsia{
+    color: #FF009E;
+}
+.testimonio__frase--derecha{
+    padding-left: 25%;
+}
+.testimonio__frase--izquierda{
+    padding-right: 25%;
+}
+.noticias__cabecera{
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin: 0;
+}
+.noticias__titulo{
+    font-size: 2.5em;
+    padding-right: 100px; 
+}
+.noticias__texto{
+    font-size: 1.4em;
+}
+.noticias__boton{
+  text-align: right;
+  margin: 0;
+  
+}
+.noticias__botones{
+    display: inline-block;
+    text-align: center;
+    height: 45px; 
+    width: 350px;
+    font-weight: bold;
+    color: black;
+    padding: 6px;
+    font-size: 1.2em;
+}
+.noticias__botones--amarillo{
+    background-color: #FFE521; 
+}
+.noticias__botones--fucsia{
+    background-color: #FF009E; 
+}
+.noticias__botones--verde{
+    background-color: #56F89A; 
+    color: white;
+}
+.background__secciones{
+    background-color: rgb(228, 225, 225);
+}
+.titulo__secciones{
+    text-align: center;
+    font-size: 1.5em;
+}
+.cuadros__blanco{
+    height: 200px;
+    background: white;
+}
+.contenedor__blog{
+    background: gainsboro;
+    height: 100%;
+}
+.link__blog{
+    color: black;
+    text-decoration: underline;
+}
+.footer__fondo{
+    background-color: black;
+
+}
+.footer__imagen{
+    width: 300px;
+}
+.footer__texto{
+    color: white;
+}
+.footer__link{
+    color: white;
+}

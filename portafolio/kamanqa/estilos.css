@@ -1,0 +1,216 @@
+@media only screen and (max-width:700px) and (orientation:landscape){
+    body{
+        background-color: skyblue;
+        font-family: cursive;
+        font-size: 10px;
+    }
+    p:hover{
+        color: crimson;
+    }
+}
+
+header, .foot{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:gray;
+    margin: 20px;
+}
+.banner1{
+    background-image: url(imagenes/0.-Portadav2.jpeg);
+    background-size: cover;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner1 p{
+    width: 1200px;
+    margin: 0 auto;
+    color: white;    
+}
+.bannerp1{
+    font-size: 30px;
+    
+}
+.bannerp2{
+    font-size: 50px;    
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.section1{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 450px;
+}
+.containerqs{
+    padding: 30px;
+}
+.containerqs h2{
+    color: #3e4557;
+    font-size: 30px;
+    margin-top: 5px;;
+}
+.containerqs .QSp1{
+    color: #1e6987;
+    font-weight: bold;
+}
+.containerqs .QSp2{
+    color: #55a3b7;
+}
+.containerqs2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url(imagenes/Kamanqa_02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    padding: 40px;
+}
+.containerqs2 p{
+    color: #1e6987;
+}
+.section2{
+    background-image: url(imagenes/backgroundreperiblegris.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+}
+.section2 h2, .containerserv, .containerserv2{
+    width: 1200px;
+    margin: 0 auto;
+}
+.section2 h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.colorsec2{
+    color: white;
+}
+.containerserv{
+    display: flex;
+    justify-content: space-between;
+}
+.containerserv div{
+    width: 400px;
+    padding: 10px;
+}
+.containerserv2{
+    display: flex;
+    justify-content: flex-start;
+}
+.containerserv2 div{
+    width: 400px;
+    padding: 10px;
+}    
+.section3{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 450px;
+}
+.section3 div{
+    width: 600px;
+    height: 450px;
+}
+.section3 img{
+    height: 450px;
+}
+.divlariaza{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.divlariaza h2{
+    color:  #1e6987;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.divlariaza p{
+    color: #55a3b7;
+    font-size: 18px;
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url(imagenes/backgroundreperibleturqueza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.section4 h2{
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase; 
+}
+.section4 div h3{
+    color: white;
+}
+.section4 div p{
+    color: white;
+    margin: 5px;
+}
+.section4 div p a{
+    color: white;
+    text-decoration: none;
+}
+.container-datos{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-datos div{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;      
+}
+footer{
+    display: flex;
+    background-color: #1e6987;
+    height: 74px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot p{
+    color: white;
+}
+.foot ul{
+    display: flex;
+    list-style: none;
+}
+.foot ul li{
+    margin: 0 10px;    
+}
+.botonup{
+    height: 35px;
+    align-self: flex-end;
+    background-color: #3e4557;
+}
